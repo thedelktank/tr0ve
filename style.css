@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a nice background color */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Create a centered container for the resume */
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some spacing between sections */
+.resume-section {
+    margin-bottom: 20px;
+}
+
+/* Style the headings */
+h1, h2, h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the main content */
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Add a subtle border to separate sections */
+.resume-section:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Add hover effect to links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the contact info section */
+.contact-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style the skills section */
+.skills {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Style the work experience section */
+.work-experience {
+    margin-top: 20px;
+}
+
+/* Style the education section */
+.education {
+    margin-top: 20px;
+}
+
+/* Add a footer with copyright info */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #999;
+}
+
+/* Customize other elements as needed */
+/* ... */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .resume-container {
+        padding: 10px;
+    }
+}
