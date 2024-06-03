@@ -28,7 +28,7 @@ body {
 /* Style the headings */
 h1, h2, h3 {
     font-weight: bold;
-    color: #333;
+    color: #0906d3;
 }
 
 /* Style the main content */
@@ -82,7 +82,12 @@ a:hover {
     margin-top: 40px;
     color: #999;
 }
-
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
 /* Customize other elements as needed */
 /* ... */
 
